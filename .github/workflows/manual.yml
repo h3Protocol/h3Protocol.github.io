@@ -2,7 +2,7 @@ name: Update DexScreener API Data
 
 on:
   schedule:
-    - cron: "*/1 * * * *"   # Runs every minute
+    - cron: "*/1 * * * *"  # Runs every minute
   workflow_dispatch:        # Allows manual trigger
 
 jobs:
@@ -12,14 +12,37 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch API Data
+      - name: Append API Data to JSON
         run: |
-          curl -s "https://api.dexscreener.com/latest/dex/tokens/0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70" -o unixtimestamp.json
+          # If the file doesn't exist, create an empty JSON array
+          if [ ! -f dexscreenerTest.json ]; then
+            echo "[]" > dexscreenerTest.json
+          fi
+
+          # Fetch the DexScreener API data
+          data=$(curl -s "https://api.dexscreener.com/latest/dex/tokens/0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70")
+
+          # Determine the current length of the array to compute the "run" number
+          runCount=$(jq '. | length' dexscreenerTest.json)
+          runCount=$(( runCount + 1 ))
+
+          # Save the new data to a temporary file
+          echo "$data" > /tmp/new_data.json
+
+          # Use jq to append a new object containing:
+          #   "run": the run number
+          #   "data": the newly fetched API data
+          jq --arg runNum "$runCount" \
+             '. + [ { "run": $runNum, "data": input } ]' \
+             dexscreenerTest.json /tmp/new_data.json \
+             > dexscreenerTest.tmp
+
+          mv dexscreenerTest.tmp dexscreenerTest.json
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add unixtimestamp.json
-          git commit -m "Update unixtimestamp.json [Automated]" || echo "No changes to commit"
+          git add dexscreenerTest.json
+          git commit -m "Update dexscreenerTest.json [Automated]" || echo "No changes to commit"
           git push
