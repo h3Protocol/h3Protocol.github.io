@@ -674210,5 +674210,666 @@
         }
       ]
     }
+  },
+  {
+    "run": "928",
+    "data": {
+      "schemaVersion": "1.0.0",
+      "pairs": [
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0xbeca246a76942502f61bfe88f60bbc87dafefe80",
+          "pairAddress": "0xbeca246A76942502f61bFe88F60bbc87DaFefe80",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "name": "Wrapped Sonic",
+            "symbol": "wS"
+          },
+          "priceNative": "0.4977",
+          "priceUsd": "0.2456",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 1
+            },
+            "h1": {
+              "buys": 1,
+              "sells": 11
+            },
+            "h6": {
+              "buys": 10,
+              "sells": 93
+            },
+            "h24": {
+              "buys": 27,
+              "sells": 424
+            }
+          },
+          "volume": {
+            "h24": 77414.04,
+            "h6": 23418.61,
+            "h1": 407.28,
+            "m5": 94.58
+          },
+          "priceChange": {
+            "m5": -0.09,
+            "h1": -0.78,
+            "h6": -1.47,
+            "h24": -5
+          },
+          "liquidity": {
+            "usd": 1197227.63,
+            "base": 1924623,
+            "quote": 1467996
+          },
+          "fdv": 15517484,
+          "marketCap": 3993601,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0x467865e7ce29e7ed8f362d51fd7141117b234b44",
+          "pairAddress": "0x467865E7Ce29E7ED8f362D51Fd7141117B234b44",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+            "name": "Bridged USDC (Sonic Labs)",
+            "symbol": "USDC.e"
+          },
+          "priceNative": "0.2429",
+          "priceUsd": "0.2429",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 1
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 10
+            },
+            "h6": {
+              "buys": 14,
+              "sells": 50
+            },
+            "h24": {
+              "buys": 47,
+              "sells": 178
+            }
+          },
+          "volume": {
+            "h24": 70544.42,
+            "h6": 24327.5,
+            "h1": 11678.55,
+            "m5": 9628.51
+          },
+          "priceChange": {
+            "m5": -1.18,
+            "h1": -1.43,
+            "h6": -2.79,
+            "h24": -5.64
+          },
+          "liquidity": {
+            "usd": 813153.43,
+            "base": 1507150,
+            "quote": 447044
+          },
+          "fdv": 15345098,
+          "marketCap": 3949235,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0x9c2a7bb01951be15fe835886188fa13255ef9486",
+          "pairAddress": "0x9c2a7bb01951bE15fe835886188fA13255eF9486",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+            "name": "Wrapped Ether on Sonic",
+            "symbol": "WETH"
+          },
+          "priceNative": "0.0001375",
+          "priceUsd": "0.2459",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 2
+            },
+            "h6": {
+              "buys": 2,
+              "sells": 20
+            },
+            "h24": {
+              "buys": 11,
+              "sells": 80
+            }
+          },
+          "volume": {
+            "h24": 10551.21,
+            "h6": 2856.68,
+            "h1": 65.57,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": -0.34,
+            "h6": -1.66,
+            "h24": -4.88
+          },
+          "liquidity": {
+            "usd": 156100.26,
+            "base": 195846,
+            "quote": 60.357
+          },
+          "fdv": 15538495,
+          "marketCap": 3999008,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0x9cb484fad38d953bc79e2a39bbc93655256f0b16",
+          "pairAddress": "0x9Cb484FAD38D953bc79e2a39bBc93655256F0B16",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
+            "name": "Origin Sonic",
+            "symbol": "OS"
+          },
+          "priceNative": "0.5005",
+          "priceUsd": "0.2475",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h6": {
+              "buys": 1,
+              "sells": 13
+            },
+            "h24": {
+              "buys": 5,
+              "sells": 66
+            }
+          },
+          "volume": {
+            "h24": 4813.21,
+            "h6": 448.47,
+            "h1": 0,
+            "m5": 0
+          },
+          "priceChange": {
+            "h6": -1.17,
+            "h24": -4.35
+          },
+          "liquidity": {
+            "usd": 176061.65,
+            "base": 228506,
+            "quote": 241648
+          },
+          "fdv": 15637052,
+          "marketCap": 4024373,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0xf5d31549b9a1e5b8228f49542684ee97b707840e",
+          "pairAddress": "0xf5d31549b9A1e5b8228F49542684Ee97b707840e",
+          "labels": [
+            "v2"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "name": "Wrapped Sonic",
+            "symbol": "wS"
+          },
+          "priceNative": "0.4936",
+          "priceUsd": "0.2438",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 1,
+              "sells": 10
+            },
+            "h6": {
+              "buys": 11,
+              "sells": 56
+            },
+            "h24": {
+              "buys": 62,
+              "sells": 232
+            }
+          },
+          "volume": {
+            "h24": 1727.02,
+            "h6": 356.41,
+            "h1": 55.07,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": -0.71,
+            "h6": -2.31,
+            "h24": -6.23
+          },
+          "liquidity": {
+            "usd": 7031.41,
+            "base": 14418,
+            "quote": 7118.2538
+          },
+          "fdv": 15403000,
+          "marketCap": 3964137,
+          "pairCreatedAt": 1736687210000,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0x550c5ffe85c84fa1fd981f0aefa0473f349cebcb",
+          "pairAddress": "0x550c5ffE85C84fa1fD981f0aEFa0473f349cebCB",
+          "labels": [
+            "v2"
+          ],
+          "baseToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "quoteToken": {
+            "address": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "name": "Wrapped Sonic",
+            "symbol": "wS"
+          },
+          "priceNative": "1.1056",
+          "priceUsd": "0.5496",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h6": {
+              "buys": 0,
+              "sells": 2
+            },
+            "h24": {
+              "buys": 0,
+              "sells": 3
+            }
+          },
+          "volume": {
+            "h24": 0,
+            "h6": 0,
+            "h1": 0,
+            "m5": 0
+          },
+          "priceChange": {
+            "h6": -2.46,
+            "h24": -2.46
+          },
+          "liquidity": {
+            "usd": 0.66,
+            "base": 1.03515,
+            "quote": 0.1974
+          },
+          "fdv": 34718772,
+          "marketCap": 8935270,
+          "pairCreatedAt": 1739648780000,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70.png?key=cc8aa5",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70/header.png?key=cc8aa5",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "http://swapx.fi/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://swapxfi.gitbook.io/swapx-docs"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "http://x.com/swapxfi"
+              },
+              {
+                "type": "telegram",
+                "url": "http://t.me/swapxfi"
+              },
+              {
+                "type": "discord",
+                "url": "http://discord.com/invite/yXU4HMsp6P"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0xcb30c203dfeea1ec0060085e1fa31f5a2024a9a3",
+          "pairAddress": "0xcB30C203DfEea1EC0060085E1Fa31F5A2024a9A3",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0x89F0462e56930CfEa4a481C1b9a0d26fA8BD94E6",
+            "name": "BurnX",
+            "symbol": "BRNx"
+          },
+          "quoteToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "priceNative": "0.01809",
+          "priceUsd": "0.004442",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 1,
+              "sells": 1
+            },
+            "h6": {
+              "buys": 16,
+              "sells": 4
+            },
+            "h24": {
+              "buys": 52,
+              "sells": 31
+            }
+          },
+          "volume": {
+            "h24": 31481.3,
+            "h6": 6558.47,
+            "h1": 585.47,
+            "m5": 0
+          },
+          "priceChange": {
+            "h1": -3.46,
+            "h6": -6.39,
+            "h24": -15.1
+          },
+          "liquidity": {
+            "usd": 93971.37,
+            "base": 12065274,
+            "quote": 164453
+          },
+          "fdv": 221183,
+          "marketCap": 221183,
+          "info": {
+            "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/sonic/0x89f0462e56930cfea4a481c1b9a0d26fa8bd94e6.png?key=da25fd",
+            "header": "https://dd.dexscreener.com/ds-data/tokens/sonic/0x89f0462e56930cfea4a481c1b9a0d26fa8bd94e6/header.png?key=da25fd",
+            "openGraph": "https://cdn.dexscreener.com/token-images/og/sonic/0x89f0462e56930cfea4a481c1b9a0d26fa8bd94e6?timestamp=1743885600000",
+            "websites": [
+              {
+                "label": "Website",
+                "url": "https://burnx.win/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://burnx.gitbook.io/getting-started"
+              }
+            ],
+            "socials": [
+              {
+                "type": "twitter",
+                "url": "https://x.com/Burn_X_"
+              },
+              {
+                "type": "telegram",
+                "url": "https://t.me/BurnXSonic"
+              }
+            ]
+          }
+        },
+        {
+          "chainId": "sonic",
+          "dexId": "swapx",
+          "url": "https://dexscreener.com/sonic/0xf5fabbfa1cb000f5ebc6aa3d5c9b13b81400f9af",
+          "pairAddress": "0xf5FabBfA1Cb000F5eBC6aa3d5C9b13b81400f9af",
+          "labels": [
+            "v3"
+          ],
+          "baseToken": {
+            "address": "0xAC9eF66dC75E5340304d5cc48E185FF5262Ae3Ac",
+            "name": "Fuego",
+            "symbol": "FUEGO"
+          },
+          "quoteToken": {
+            "address": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+            "name": "SwapX",
+            "symbol": "SWPx"
+          },
+          "priceNative": "0.01843",
+          "priceUsd": "0.004678",
+          "txns": {
+            "m5": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h1": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h6": {
+              "buys": 0,
+              "sells": 0
+            },
+            "h24": {
+              "buys": 1,
+              "sells": 0
+            }
+          },
+          "volume": {
+            "h24": 0.44,
+            "h6": 0,
+            "h1": 0,
+            "m5": 0
+          },
+          "priceChange": {},
+          "liquidity": {
+            "usd": 45.31,
+            "base": 4842.7957,
+            "quote": 89.2659
+          },
+          "fdv": 16031,
+          "marketCap": 16031
+        }
+      ]
+    }
   }
 ]
